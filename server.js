@@ -6,7 +6,7 @@ const { loadImage } = require('canvas');
 const createGif = require('./animate'); // your existing function
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Configure multer
 const upload = multer({ dest: 'uploads/' });
