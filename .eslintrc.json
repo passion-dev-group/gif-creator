@@ -1,0 +1,11 @@
+// .eslintrc.json
+{
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-undef": "error"
+    }
+}
